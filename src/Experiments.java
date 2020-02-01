@@ -87,7 +87,7 @@ public class Experiments{
     }
 
     public static void main(String[] args){
-        int totalExperiments = 10;
+        int totalExperiments = 15;
         int[] N1 = {1024, 2048, 4096, 8192};
         int[] N2 = {1024, 2048, 4096, 8192, 16384, 32768, 65536};
         int[] m = {20, 40, 80};
