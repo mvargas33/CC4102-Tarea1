@@ -275,7 +275,7 @@ public class RAMConFronteras {
                         new FileInputStream(dir_x + "X_" + index + ".wtf")
                 );
                 dataInputStream.read(temp);
-                System.arraycopy(temp, 0, X, i*B, B);
+                System.arraycopy(temp, 0, X, i*B, B); // Copiar con desfase
 
                 /*
                 while( dataInputStream.available() > 0) {
